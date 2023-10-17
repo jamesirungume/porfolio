@@ -5,7 +5,7 @@ import Home from './Home';
 import About from './About';
 import Skills from './Skills';
 import Work from './Work';
-import Hero from './Hero'
+
 // import Contact from './pages/Contact';
 // import Blog from './pages/Blog';
 
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/hero" element={<Hero/>}/>
+       
         
       </Routes>
     </BrowserRouter>

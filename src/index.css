@@ -1,12 +1,18 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color: #28282B;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,51 +25,97 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
+/* Body */
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top:0px;
+  max-width: 150px;
+  min-height: 938px;
+  background-color: #404040;
+  padding: 10px;
+}
+.pitchBlack {
+   background-color: 	#000000;
+   width: 150px;
+   min-height: 130px;
+   position: relative;
+   bottom: 8px;
+   right: 10px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* Navlinks */
+.nav-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Display links vertically */
+  align-items: flex-start; /* Align links to the left */
+  margin-bottom: 10px;
+  margin-top: 220px;
+  gap: 20px; /* Add vertical gap between links */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: 'Your Font Family', sans-serif; /* Specify your desired font family */
+  font-weight: 900; /* Specify your desired font weight */
+  color: #F0EAD6;
+  font-size: 23px;
+  padding: 10px;
+}
+
+.nav-links li a:hover {
+  color: #646cff;
+}
+
+
+
+/* Content */
+.content {
+  margin-left: 220px; /* Adjust the margin to accommodate the sidebar width */
+}
+
+/* Hero section */
+.hero-content {
+  text-align: center;
+  padding: 100px 200px;
+  margin-bottom: 130px;
+ 
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
