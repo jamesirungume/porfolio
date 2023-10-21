@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className="sidebar">
+    <>
       <div className='pitchBlack'>
 
       </div>
@@ -11,22 +12,26 @@ const Navbar = () => {
         {/* <h1>Sound Off</h1> */}
       </div>
       <ul className="nav-links">
+        
        
         <li>
-          <Link to='/work'>Work</Link>
+        <Link to="Work" smooth={true} duration={500}>Work</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+        <Link to="Contact" smooth={true} duration={500}>Contact</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+        <Link to="About" smooth={true} duration={500}>About</Link>
         </li>
         
         <li>
-          <Link to='/skills'>Skills</Link>
+        <Link to="Experience" smooth={true} duration={500}>Experience</Link>
+        </li>
+        <li>
+        <button className="btton">Resume</button>
         </li>
       </ul>
-    </nav>
+   </>
   );
 };
 

@@ -12,7 +12,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #28282B;
+  background-color: #040720;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,7 +41,7 @@ body {
   font-size: 16px;
 }
 
-/* Sidebar */
+/* Sidebar
 .sidebar {
   position: fixed;
   left: 0;
@@ -50,26 +50,24 @@ body {
   min-height: 938px;
   background-color: #404040;
   padding: 10px;
-}
-.pitchBlack {
-   background-color: 	#000000;
-   width: 150px;
-   min-height: 130px;
-   position: relative;
-   bottom: 8px;
-   right: 10px;
-}
+} */
 
+
+/* Navlinks */
+/* Navlinks */
 /* Navlinks */
 .nav-links {
   width: 100%;
   display: flex;
-  flex-direction: column; /* Display links vertically */
-  align-items: flex-start; /* Align links to the left */
-  margin-bottom: 10px;
-  margin-top: 220px;
-  gap: 20px; /* Add vertical gap between links */
+  flex-direction: row; /* Display links horizontally */
+  justify-content: flex-end; /* Align links to the right */
+  gap: 20px; /* Add horizontal gap between links */
+  position: fixed;
+  top: 30px;
+  right: 120px;
 }
+
+
 
 .nav-links li {
   list-style: none;
@@ -77,10 +75,10 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  font-family: 'Your Font Family', sans-serif; /* Specify your desired font family */
-  font-weight: 900; /* Specify your desired font weight */
+  font-family: Arial;
+  font-weight: 400; /* Specify your desired font weight */
   color: #F0EAD6;
-  font-size: 23px;
+  font-size: 16px;
   padding: 10px;
 }
 
@@ -99,23 +97,101 @@ body {
 .hero-content {
   text-align: center;
   padding: 100px 200px;
-  margin-bottom: 130px;
+  margin-bottom: 150px;
+  margin-top: 50px;
  
+}
+#name {
+  color: #00FFFF;
+  margin-bottom: 10px;
 }
 
 .hero-content h1 {
-  font-size: 48px;
+  font-size: 60px;
   margin-bottom: 20px;
-}
 
-.hero-content p {
-  font-size: 20px;
-  margin-bottom: 20px;
+}
+#stack {
+  opacity: 0.5;
+}
+.description {
+  max-width:42%; /* Set the width to 50% of its container */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+ 
+ 
+  
+  
 }
 
 .hero-content button {
   background-color: #000;
-  color: #fff;
-  padding: 10px 20px;
+  color: #00FFFF;
+  padding: 24px 30px;
   border-radius: 5px;
+  border: 1px solid ;
+  margin-top: 50px;
+  
+}
+.btton {
+  background-color: #000;
+  color: #00FFFF;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border: 1px solid ;
+  
+}
+.content-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+.svg{
+  max-height: 2px;
+  max-width: 4px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+.spanname {
+  color: #00FFFF;
+  font-size: medium;
+}
+.about-section {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Align content vertically */
+  
+}
+
+.line {
+  width: 50%;
+  height: 2px;
+  background-color: #00FFFF;
+  margin: 10px 0;
+}
+
+
+.about-content {
+  max-width: 800px;
+  padding: 20px;
+  margin-right: 410px;
+}
+
+.about-content p {
+  text-align: left; /* Align the text to the left */
+  margin: 10px 0;
+}
+#my_image {
+  max-width: 450px;
+  max-height: 350px;
+  border-radius:  50%;
+  object-fit: cover;
+}
+.displayRow {
+  display: flex;
+  flex-direction: row;
 }
