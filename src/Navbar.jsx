@@ -28,7 +28,9 @@ const Navbar = () => {
         <Link to="Experience" smooth={true} duration={500}>Experience</Link>
         </li>
         <li>
-        <button className="btton">Resume</button>
+          <a href='https://docs.google.com/document/d/1BKZ13RpfgD4K8GYbJqhOLHPn2eRxJPvHZAwrTLGevCQ/edit' targeet="_blank" rel ="noopener noreferrer">
+        <button className="btton" >Resume</button>
+        </a>
         </li>
       </ul>
    </>
