@@ -1,8 +1,14 @@
-import React from 'react';
+
+import React, { useState } from 'react'
 // import { Link } from 'react-router-dom';
 import { Link } from 'react-scroll';
+import {FaBars,FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
+  const [click,setClick] = useState(false)
+  function handleClick() {
+    setClick(!click)
+  }
   return (
     <>
       <div className='pitchBlack'>
@@ -11,7 +17,7 @@ const Navbar = () => {
       <div className="logo">
         {/* <h1>Sound Off</h1> */}
       </div>
-      <ul className="nav-links">
+      <ul className={click?'nav-links active':'nav-links'}>
         
        
         <li>
@@ -33,6 +39,10 @@ const Navbar = () => {
         </a>
         </li>
       </ul>
+      <div className='hamburger' onClick={handleClick}>
+        {click ? (<FaTimes size ={40} style={{color:'white'}}/>):(  <FaBars size={40} style={{color:'#fff'}}/>)}
+      </div>
+
    </>
   );
 };

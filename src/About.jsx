@@ -1,10 +1,13 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaCss3, FaPython, FaJs } from 'react-icons/fa';
+import myImage from './images/myImage.jpg';
+
+
 
 const AboutSection = () => {
   return (
     <section className="about-section">
-      <h2>About Me</h2>
+      <h2 id = "About">About Me</h2>
       <div className="line"></div>
       <div className="displayRow">
         <div className="about-content">
@@ -14,10 +17,10 @@ const AboutSection = () => {
           
         </div>
         <div className="image">
-          <img src='src/images/WhatsApp Image 2023-10-21 at 4.18.22 PM.jpeg' id='my_image' alt="My Image"/>
+        <img src={myImage} alt="My Image" id='my_image' />
         </div>
       </div>
-    
+      
       <h3 id ="headline">Skills i can provide <span className='reactIcons'><FaReact/> <FaHtml5/> <FaCss3/> <FaPython/>  <FaJs/> </span></h3>
       <div className='new_line'></div>
       <div className='Skills2'>
