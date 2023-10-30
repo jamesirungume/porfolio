@@ -21,7 +21,7 @@ const AboutSection = () => {
         </div>
       </div>
       
-      <h3 id ="headline">Skills i can provide <span className='reactIcons'><FaReact/> <FaHtml5/> <FaCss3/> <FaPython/>  <FaJs/> </span></h3>
+      <div><h3 id ="headline">Skills i can provide <span className='reactIcons'><FaReact/> <FaHtml5/> <FaCss3/> <FaPython/>  <FaJs/> </span></h3> </div>
       <div className='new_line'></div>
       <div className='Skills2'>
         <p>1. Javascript - libraries(React,React Native)</p>
