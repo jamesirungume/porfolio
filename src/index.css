@@ -857,6 +857,7 @@ body {
 }
 
 
+
 .image-container:hover .overlay {
   opacity: 1;
   visibility: visible;
@@ -878,6 +879,8 @@ body {
   opacity: 1;
   transition: transform 1s, opacity 1s;
 }
+
+
 
 /* Add this media query to target smaller screens */
 @media screen and (max-width:1040px) {
@@ -903,8 +906,8 @@ body {
 /* Add any other necessary adjustments for smaller screens */
   }
   .svg{
-    padding-left: 120px;
-    padding-bottom: 50px;
+    left: 120px;
+    top: 20px;
   }
 
   /* Update your navigation for smaller screens */
@@ -918,17 +921,22 @@ body {
     position: absolute;
     top: 0;
     left: -100%;
-    z-index: 1000;
+    z-index: 1;
     transition: 0.3s;
   }
   
   .nav-links.active {
-    left: 40px;
+    left: 4px;
+    
   }
   
 
   .hamburger {
     display: initial;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 9); 
     
   }
 
@@ -941,11 +949,15 @@ body {
   .content {
     margin-left: 10px; /* Adjust the margin for smaller screens */
   }
+  .overlay p {
+    margin-top: 1px;
+  }
+
   .overlay button {
-    padding: 1ch65;
-    margin-bottom: 5px;
+    padding-bottom: px;
     margin: 5px;
-     
+  
+  
   }
 
   /* Update your hero section for smaller screens */
