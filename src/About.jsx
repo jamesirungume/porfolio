@@ -20,7 +20,7 @@ const AboutSection = () => {
         <img src={image} alt="My Image" id='my_image' />
         </div>
       </div>
-      #myImage
+      
       <div><h3 id ="headline">Skills i can provide <span className='reactIcons'><FaReact/> <FaHtml5/> <FaCss3/> <FaPython/>  <FaJs/> </span></h3> </div>
       <div className='new_line'></div>
       <div className='Skills2'>
