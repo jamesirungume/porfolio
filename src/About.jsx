@@ -17,7 +17,7 @@ const AboutSection = () => {
           
         </div>
         <div className="image">
-        <img src={image} alt="My Image" id='my_image' />
+        <img src={myImage} alt="My Image" id='my_image' />
         </div>
       </div>
       
