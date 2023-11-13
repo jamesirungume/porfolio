@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link to="Experience" smooth={true} duration={500}>Experience</Link>
         </li>
         <li>
-          <a href='https://docs.google.com/document/d/1BKZ13RpfgD4K8GYbJqhOLHPn2eRxJPvHZAwrTLGevCQ/edit' targeet="_blank" rel ="noopener noreferrer">
+          <a href="https://www.canva.com/design/DAFz-7CTshQ/mXJycZbSmzI7OErNbwKwcQ/view?utm_content=DAFz-7CTshQ&utm_campaign=designshare&utm_medium=link&utm_source=editor">
         <button className="btton" >Resume</button>
         </a>
         </li>
