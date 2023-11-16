@@ -17,7 +17,7 @@ const WorkSection = () => {
     {
       name: "Hire Groove",
       description: "A web application where one can apply and showcase tech job opportunities.",
-      websiteUrl: "https://hire-frontend.onrender.com/",
+      websiteUrl: "https://hire-grove.vercel.app/",
       githubUrl: "https://github.com/jamesirungume/Hire_Grove_frontend/tree/main",
       imageUrl: "https://media.gcflearnfree.org/content/55e0740a7dd48174331f51c4_01_17_2014/JobApplications_CompletingJobApp_p1.jpg",
     },
@@ -29,11 +29,11 @@ const WorkSection = () => {
       imageUrl: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380",
     },
     {
-      name: "Book Finder",
-      description: " A simple web Where one can search, explore, and read books.",
-      websiteUrl: "https://book-finder-uahe.onrender.com/",
-      githubUrl: "https://github.com/yourusername/bookfinder",
-      imageUrl: "https://media.npr.org/assets/img/2022/12/22/gettyimages-1245203807-1536x1029_wide-9982607ca51f99999656d993bf5511d42533c0f2-s1100-c50.jpg",
+      name: "Lost & Found",
+      description: "App where people within an instution can report lost items and get report back if they are found.",
+      websiteUrl: "https://lost-and-found-eight.vercel.app/",
+      githubUrl: "https://github.com/jamesirungume/lost-found",
+      imageUrl: "https://i.pinimg.com/564x/1c/d7/1e/1cd71ecf36f14cb9abab68e4def29618.jpg",
     },
     {
       name: "Hire Groove Backend",
