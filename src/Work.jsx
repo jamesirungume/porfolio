@@ -7,6 +7,13 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const WorkSection = () => {
   const projects = [
+     {
+      name: "Lost & Found",
+      description: "App where people within an instution can report lost items and get report back if they are found.",
+      websiteUrl: "https://lost-and-found-eight.vercel.app/",
+      githubUrl: "https://github.com/jamesirungume/lost-found",
+      imageUrl: "https://i.pinimg.com/564x/1c/d7/1e/1cd71ecf36f14cb9abab68e4def29618.jpg",
+    },
     {
       name: "Fit Buddy",
       description: "A Developed top-tier fitness web app for personalized workout and nutrition plans.",
@@ -28,13 +35,7 @@ const WorkSection = () => {
       githubUrl: "https://github.com/jamesirungume/photogenic-app/tree/tempbr",
       imageUrl: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380",
     },
-    {
-      name: "Lost & Found",
-      description: "App where people within an instution can report lost items and get report back if they are found.",
-      websiteUrl: "https://lost-and-found-eight.vercel.app/",
-      githubUrl: "https://github.com/jamesirungume/lost-found",
-      imageUrl: "https://i.pinimg.com/564x/1c/d7/1e/1cd71ecf36f14cb9abab68e4def29618.jpg",
-    },
+    
     {
       name: "Hire Groove Backend",
       description: "A web application backend for showcasing tech job opportunities.",
