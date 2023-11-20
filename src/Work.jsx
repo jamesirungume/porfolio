@@ -10,8 +10,8 @@ const WorkSection = () => {
      {
       name: "Lost & Found",
       description: "App where people within an instution can report lost items and get report back if they are found.",
-      websiteUrl: "https://lost-and-found-eight.vercel.app/",
-      githubUrl: "https://github.com/jamesirungume/lost-found",
+      websiteUrl: "https://lost-front.vercel.app/",
+      githubUrl: "https://github.com/jamesirungume/Lost_front",
       imageUrl: "https://i.pinimg.com/564x/1c/d7/1e/1cd71ecf36f14cb9abab68e4def29618.jpg",
     },
     {
