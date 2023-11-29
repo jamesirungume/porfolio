@@ -18,7 +18,7 @@ const ContactSection = () => {
         <a href='https://github.com/jamesirungume' targeet="_blank" rel ="noopener noreferrer">
         <p><FaGithub /></p>
         </a>
-        <a href="https://www.linkedin.com/in/jymoh-undefined-a931a2294/" targeet="_blank" rel ="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/james-irungu-1930b92a2/" targeet="_blank" rel ="noopener noreferrer">
         <p><FaLinkedin /></p>
         </a>
         <a href="https://www.instagram.com/mr_james_mee/" targeet="_blank" rel ="noopener noreferrer">
