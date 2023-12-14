@@ -38,12 +38,19 @@ const WorkSection = () => {
     
     {
       name: "Hire Groove Backend",
-      description: "A web application backend for showcasing tech job opportunities.",
+      description: "App where people within an instution can report lost items and get report back if they are found.",
       websiteUrl: "https://hire-backend.onrender.com/",
       githubUrl: "https://github.com/jamesirungume/Hire_Grove_backend/tree/main",
       imageUrl: "https://media.gcflearnfree.org/content/55e0740a7dd48174331f51c4_01_17_2014/JobApplications_CompletingJobApp_p1.jpg",
     },
-    
+
+    {
+      name: "Lost & Found Backend",
+      description: "A web application backend for showcasing tech job opportunities.",
+      websiteUrl: "https://lost-backend.onrender.com/",
+      githubUrl: "https://github.com/jamesirungume/Lost-Backend",
+      imageUrl: "https://i.pinimg.com/564x/1c/d7/1e/1cd71ecf36f14cb9abab68e4def29618.jpg",
+    },
   ];
 
   const [animate, setAnimate] = useState(false);
