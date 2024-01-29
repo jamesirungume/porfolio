@@ -29,11 +29,11 @@ const WorkSection = () => {
       imageUrl: "https://media.gcflearnfree.org/content/55e0740a7dd48174331f51c4_01_17_2014/JobApplications_CompletingJobApp_p1.jpg",
     },
     {
-      name: "Photogenic",
-      description: "Photographer's Hub: Share, Connect, and Get Hired!",
-      websiteUrl: "https://photogenic-app.onrender.com/#/Documenting",
-      githubUrl: "https://github.com/jamesirungume/photogenic-app/tree/tempbr",
-      imageUrl: "https://assets.entrepreneur.com/content/3x2/2000/20191009140007-GettyImages-1053962188.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380",
+      name: "Bot Army",
+      description: "Upon loading the app, you will see a collection of bots displayed. Each bot has a "View Details" button that allows you to view detailed specifications of that particular bot.",
+      websiteUrl: "",
+      githubUrl: "https://github.com/jamesirungume/BOTS-APP-CODE-CHALLENGE",
+      imageUrl: "https://media.istockphoto.com/id/1414699113/photo/small-robot-assistant-work-with-graphic-display.webp?b=1&s=170667a&w=0&k=20&c=m8y0GFWEyDOsbqUGwOtMeiL5W2NVpDaCA522wsAm6B4=",
     },
     
     {
