@@ -30,7 +30,7 @@ const WorkSection = () => {
     },
     {
       name: "Bot Army",
-      description: "Upon loading the app, you will see a collection of bots displayed. Each bot has a "View Details" button that allows you to view detailed specifications of that particular bot.",
+      description: "Upon loading the app, you will see a collection of bots displayed. Each bot has a 'View Details' button that allows you to view detailed specifications of that particular bot.",
       websiteUrl: "",
       githubUrl: "https://github.com/jamesirungume/BOTS-APP-CODE-CHALLENGE",
       imageUrl: "https://media.istockphoto.com/id/1414699113/photo/small-robot-assistant-work-with-graphic-display.webp?b=1&s=170667a&w=0&k=20&c=m8y0GFWEyDOsbqUGwOtMeiL5W2NVpDaCA522wsAm6B4=",
