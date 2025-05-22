@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaCss3, FaPython, FaJs } from 'react-icons/fa';
-import myImage from './images/myImage.jpg';
+
 
 
 
@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <section className="about-section">
       <h2 id = "About">About Me</h2>
-      <div className="line"></div>
+      <div className="line2"></div>
       <div className="displayRow">
         <div className="about-content">
           <p>Hey, my name is James, and I'm a passionate fullstack developer. I have a strong desire to create innovative web applications and digital experiences. With a background in web development, I'm dedicated to crafting efficient, user-friendly, and visually appealing solutions for various web-based challenges.</p>   
@@ -16,9 +16,7 @@ const AboutSection = () => {
           <p>My goal is to contribute my skills and expertise to projects that make a positive impact. I'm excited to explore new challenges and am eager to connect with like-minded professionals and potential employers to create meaningful web experiences together.</p>
           
         </div>
-        <div className="image">
-        <img src={myImage} alt="My Image" id='my_image' />
-        </div>
+       
       </div>
       
       <div><h3 id ="headline">Skills i can provide <span className='reactIcons'><FaReact/> <FaHtml5/> <FaCss3/> <FaPython/>  <FaJs/> </span></h3> </div>
