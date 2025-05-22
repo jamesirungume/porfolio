@@ -88,7 +88,7 @@ const WorkSection = () => {
   return (
     <div className='Work' ref={workSectionRef}>
       <h1 id="project_header">My Projects.</h1>
-      <div className='line2'></div>
+      <div className='line3'></div>
       <section className={`work-section ${animate ? 'moveIn' : 'move-off-Screen'}`}>
         {projects.map((project, index) => (
           <div className="work-box" key={index}>

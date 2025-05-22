@@ -1,6 +1,6 @@
 /* Reset some default styles */
 
-body {
+.body {
 
   font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -735,11 +735,10 @@ width: 30%;
   margin-top: 550px;
 }
 .line3 {
-  width: 50%;
+  width: 30%;
   height: 2px;
   background-color: #00FFFF;
-  margin-left: 410px;
-  margin-bottom: 20px;
+  margin: 0 auto; /* this centers it horizontally */
 }
 .contactSection h1 {
   font-family: 'Times New Roman', Times, serif;

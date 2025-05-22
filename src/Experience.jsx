@@ -6,7 +6,7 @@ const ExperienceSection = () => {
     <section className='Experience'>
       
       <h2  className="experience-section">Experience</h2>
-      <span><div className="line2"></div></span>
+      <span><div className="line3"></div></span>
       <div className="experience-item">
         <h3>01. PC and Laptop Sales</h3>
         <div className='new_line2'></div>

@@ -11,7 +11,7 @@ const ContactSection = () => {
   return (
     <div className='contactSection'>
       <h2>Contact</h2>
-      <div className="line2"></div>
+      <div className="line3"></div>
       <h1>Want to communicate more?</h1>
       <button onClick={handleEmailClick}>Send me an email</button>
       <div className='icons'>

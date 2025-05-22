@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <section className="about-section">
       <h2 id = "About">About Me</h2>
-      <div className="line2"></div>
+      <div className="line3"></div>
       <div className="displayRow">
         <div className="about-content">
           <p>Hey, my name is James, and I'm a passionate fullstack developer. I have a strong desire to create innovative web applications and digital experiences. With a background in web development, I'm dedicated to crafting efficient, user-friendly, and visually appealing solutions for various web-based challenges.</p>   
